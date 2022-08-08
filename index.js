@@ -150,7 +150,7 @@ async function main() {
 
     console.log("searchValue: f exists on tree?", searchValue);
 
-    const treeIncludes = binaryTreeStr.treeIncludes(binaryTreeStr.getRootNode(), "f");
+    const treeIncludes = binaryTreeStr.treeIncludes(binaryTreeStr.getRootNode(), "d");
 
     console.log("treeIncludes: d exists on tree?", treeIncludes);
 }
